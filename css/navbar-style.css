@@ -32,14 +32,6 @@
     background-color: #000000 !important;
 }
 
-.back-image {
-    background-image: url("../contents/cover.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    filter: brightness(75%);
-}
-
 
 @-moz-keyframes rotate /*--for firefox--*/{
     from{

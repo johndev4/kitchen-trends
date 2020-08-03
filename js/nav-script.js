@@ -58,10 +58,13 @@ $(document).ready(function () {
                 "-moz-animation-fill-mode": "forwards",
                 //for safari & chrome
                 "-webkit-animation-name": "rotate",
-                "-webkit-animation-duration": "0.5s",
+                "-webkit-animation-duration": "0.1s",
                 "-webkit-animation-iteration-count": "1",
                 "-webkit-animation-fill-mode": "forwards",
             });
+
+            $('#rotate-box').removeClass("fa-bar");
+            $('#rotate-box').addClass("fa-times");
 
         } else{
             $('#rotate-box').css({
@@ -72,10 +75,13 @@ $(document).ready(function () {
                 "-moz-animation-fill-mode": "forwards",
                 //for safari & chrome
                 "-webkit-animation-name": "unrotate",
-                "-webkit-animation-duration": "0.5s",
+                "-webkit-animation-duration": "0.1s",
                 "-webkit-animation-iteration-count": "1",
                 "-webkit-animation-fill-mode": "forwards",
             });
+
+            $('#rotate-box').removeClass("fa-times");
+            $('#rotate-box').addClass("fa-bar");
         }
     });
 

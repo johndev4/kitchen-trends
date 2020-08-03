@@ -2,6 +2,38 @@ body {
     margin: auto;
     background-color: white !important;
 }
-.carousel {
-    margin: auto;
+
+.cover-image {
+    background-image: url("../contents/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    filter: brightness(50%);
+    filter: contrast(90%);
+}
+
+.cover-text {
+    text-align: center;
+    margin: 15%;
+    color: #ffffff;
+    font-family: theboldfont;
+    text-shadow: 5px 5px 7px #000000;
+}
+
+@media only screen and (max-width: 800px) {
+    .cover-image {
+        height: 400px;
+    }
+    .cover-text {
+        margin-top: 30%;
+        margin-bottom: 30%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@font-face {
+    font-family: 'theboldfont';
+    src: url('fonts/theboldfont.ttf');
 }
