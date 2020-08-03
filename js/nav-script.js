@@ -7,7 +7,6 @@ $(document).ready(function () {
         }, 250);
 
     }, function () {
-        ;
         $(this).find(".nav-link-bottom").animate({
             width: "0px"
         }, 250);

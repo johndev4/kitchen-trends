@@ -2,12 +2,24 @@
     width: 200px;
 }
 
+.navbar-toggler {
+    border: none !important;
+    font-size: 72pt;
+}
+.navbar-toggler:hover {
+    color: #ffffff !important;
+}
+
 .nav-link-bottom {
     border: 1px solid #ffffff;
     width: 0px;
     visibility: hidden;
 }
-
 .nav-link:hover {
     color: #ffffff !important;
+}
+
+.dropdown-menu {
+    width: 500px !important;
+    right: 100px !important;
 }
