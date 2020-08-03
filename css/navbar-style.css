@@ -1,5 +1,14 @@
+.navbar {
+    position: fixed !important;
+    width: 100%;
+}
+
 .brand-name {
     width: 200px;
+}
+
+.navbar-toggler {
+    overflow: hidden !important;
 }
 
 .navbar-toggler {
@@ -11,7 +20,7 @@
 }
 
 .nav-link-bottom {
-    border: 1px solid #ffffff;
+    border: 0.5px solid #ffffff;
     width: 0px;
     visibility: hidden;
 }
