@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    
+
     <script>
         /*var w = window.innerWidth;
         var h = window.innerHeight;
@@ -38,13 +38,21 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active px4">
+                    <li class="nav-item active px-4">
                         <a class="nav-link" href="">HOME <span class="sr-only">(current)</span>
                             <hr class="nav-link-bottom my-auto"></a>
                     </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link" href="#">PRODUCTS
+                    <li class="nav-item dropdown px-4">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PRODUCTS
                             <hr class="nav-link-bottom my-auto"></a>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
                     </li>
                     <li class="nav-item px-4">
                         <a class="nav-link" href="#">GALLERY
@@ -62,14 +70,14 @@
     <main>
         <div class="row">
             <div class="col-12">
-
+                
             </div>
         </div>
     </main>
 
     <footer>
         <div>
-            
+
         </div>
     </footer>
 
