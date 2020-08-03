@@ -11,14 +11,12 @@ body {
     background-clip: border-box;
     filter: brightness(50%);
     filter: contrast(90%);
+    width: 100%;
 }
 
 .cover-text {
     text-align: center;
-    margin: auto;
-    color: #ffffff;
-    font-family: theboldfont;
-    /*text-shadow: 3px 3px 10px #000000;*/
+    height: 100%;
 }
 
 .cover-text > h1 {
@@ -26,17 +24,23 @@ body {
     filter: opacity(50%);
     padding: 15%;
     margin: auto;
+    font-family: theboldfont;
+    font-size:30pt;
+    color: #ffffff;
+    box-sizing: border-box;
+    height: 100%;
 }
 
 @media only screen and (max-width: 800px) {
     .cover-image {
         height: 400px;
     }
+
     .cover-text > h1 {
-        padding-top: 30%;
-        padding-bottom: 30%;
         padding-left: 0;
+        padding-top: 25%;
         padding-right: 0;
+        padding-bottom: 5%;
     }
 }
 
