@@ -3,11 +3,11 @@
 }
 
 .nav-link-bottom {
-    border: 1px solid red;
+    border: 1px solid #ffffff;
     width: 0px;
     visibility: hidden;
 }
 
 .nav-link:hover {
-    color: red !important;
+    color: #ffffff !important;
 }
