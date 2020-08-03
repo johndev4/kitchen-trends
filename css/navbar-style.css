@@ -23,6 +23,11 @@
     color: #ffffff !important;
 }
 
+.nav-link {
+    font-family: Bebas;
+    font-size: 14pt;
+}
+
 .dropdown-menu {
     width: 500px !important;
     right: 100px !important;
