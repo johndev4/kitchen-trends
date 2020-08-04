@@ -45,7 +45,7 @@ body {
 }
 
 .products-category-img {
-    width: 90px;
+    width: 100px;
     padding: auto;
     margin: auto;
 }
@@ -74,6 +74,10 @@ body {
     #cover-text {
         top: 0px;
         opacity: 0;
+    }
+
+    .products-category {
+        width: 100%;
     }
 }
 
