@@ -1,11 +1,16 @@
 $(document).ready(function () {
 
-    //OwlCarousel2-2.3.4 Plugin
-    $('.owl-carousel').owlCarousel({
-        margin: 10,
-        loop: false,
-        autoWidth: true,
-        items: 4
+    /*hover event for products category*/
+    $('.products-category').hover(function () {
+        $(this).find('.border-bottom-hr').css({visibility: "visible"});
+        $(this).find('.border-bottom-hr').animate({
+            width: "100%"
+        }, 250);
+    }, function() {
+        $(this).find('.border-bottom-hr').animate({
+            width: "0px"
+        }, 250);
+        $(this).find('.border-bottom-hr').css({visibility: "hidden"});
     });
 
 });

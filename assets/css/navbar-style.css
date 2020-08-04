@@ -1,3 +1,7 @@
+.navbar.bg-color {
+    background-color: #000000 !important;
+}
+
 .brand-name {
     width: 200px;
 }
@@ -23,13 +27,10 @@
     font-size: 14pt;
 }
 
-.dropdown-menu {
-    width: 500px !important;
-    right: 100px !important;
-}
-
-.bg-custom {
-    background-color: #000000 !important;
+.border-bottom-hr.n-link {
+    border: 0.5px solid #ffffff;
+    width: 0px;
+    visibility: hidden;
 }
 
 
