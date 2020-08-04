@@ -49,7 +49,7 @@ $(document).ready(function () {
     });*/
 
     $('.navbar-toggler').first().click(function () {
-        if ($(this).hasClass("collapsed")){
+        if ($(this).hasClass("collapsed")) {
             $('#rotate-box').css({
                 //for firefox
                 "-moz-animation-name": "rotate",
@@ -66,7 +66,7 @@ $(document).ready(function () {
             $('#rotate-box').removeClass("fa-bar");
             $('#rotate-box').addClass("fa-times");
 
-        } else{
+        } else {
             $('#rotate-box').css({
                 //for firefox
                 "-moz-animation-name": "unrotate",

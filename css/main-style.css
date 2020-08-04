@@ -14,21 +14,24 @@ body {
     width: 100%;
 }
 
-.cover-text {
-    text-align: center;
-    height: 100%;
-}
-
-.cover-text > h1 {
+#cover-text-container{
     background-color: #000000;
     filter: opacity(50%);
-    padding: 15%;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 15% 3%;
+    margin: auto;
+}
+
+#cover-text {
+    text-align: center;
     margin: auto;
     font-family: theboldfont;
     font-size:30pt;
     color: #ffffff;
-    box-sizing: border-box;
-    height: 100%;
+    position: relative;
+    top: -30px;
+    opacity: 0;
 }
 
 @media only screen and (max-width: 800px) {
@@ -36,11 +39,9 @@ body {
         height: 400px;
     }
 
-    .cover-text > h1 {
-        padding-left: 0;
-        padding-top: 25%;
-        padding-right: 0;
-        padding-bottom: 5%;
+    #cover-text {
+        top: 0px;
+        opacity: 0;
     }
 }
 
