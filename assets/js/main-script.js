@@ -1,7 +1,11 @@
 $(document).ready(function () {
 
-    $(document).ready(function () {
-        $(".owl-carousel").owlCarousel();
+    //OwlCarousel2-2.3.4 Plugin
+    $('.owl-carousel').owlCarousel({
+        margin: 10,
+        loop: false,
+        autoWidth: true,
+        items: 4
     });
 
 });

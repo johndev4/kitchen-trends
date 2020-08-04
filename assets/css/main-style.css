@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-#cover-image {
+.cover-image {
     background-image: url("../../contents/cover_img.jpg");
     background-repeat: no-repeat;
     background-position: center;
