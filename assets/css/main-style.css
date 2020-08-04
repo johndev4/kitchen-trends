@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 
+
 .cover-image {
     background-image: url("../../contents/cover_img.jpg");
     background-repeat: no-repeat;
@@ -33,6 +34,35 @@ body {
     top: -30px;
     opacity: 0;
 }
+
+
+.products-category {
+    width: 150px;
+    padding: auto;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+.products-category-img {
+    width: 90px;
+    padding: auto;
+    margin: auto;
+}
+
+.products-category-name-container {
+    padding: auto;
+    margin: auto;
+}
+
+.products-category-name {
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+
+
 
 
 /*screen*/
