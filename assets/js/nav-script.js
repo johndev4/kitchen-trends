@@ -4,16 +4,10 @@ $(document).ready(function () {
     $('.navbar-toggler').first().click(function () {
         if ($(this).hasClass("collapsed")) {
             $('#rotate-box').css({
-                //for firefox
-                "-moz-animation-name": "rotate",
-                "-moz-animation-duration": "0.5s",
-                "-moz-animation-iteration-count": "1",
-                "-moz-animation-fill-mode": "forwards",
-                //for safari & chrome
-                "-webkit-animation-name": "rotate",
-                "-webkit-animation-duration": "0.1s",
-                "-webkit-animation-iteration-count": "1",
-                "-webkit-animation-fill-mode": "forwards",
+                "animation-name": "rotate",
+                "animation-duration": "0.1s",
+                "animation-iteration-count": "1",
+                "animation-fill-mode": "forwards"
             });
 
             $('#rotate-box').removeClass("fa-bar");
@@ -21,16 +15,10 @@ $(document).ready(function () {
 
         } else {
             $('#rotate-box').css({
-                //for firefox
-                "-moz-animation-name": "unrotate",
-                "-moz-animation-duration": "0.5s",
-                "-moz-animation-iteration-count": "1",
-                "-moz-animation-fill-mode": "forwards",
-                //for safari & chrome
-                "-webkit-animation-name": "unrotate",
-                "-webkit-animation-duration": "0.1s",
-                "-webkit-animation-iteration-count": "1",
-                "-webkit-animation-fill-mode": "forwards",
+                "animation-name": "unrotate",
+                "animation-duration": "0.1s",
+                "animation-iteration-count": "1",
+                "animation-fill-mode": "forwards"
             });
 
             $('#rotate-box').removeClass("fa-times");

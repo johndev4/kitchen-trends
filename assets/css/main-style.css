@@ -4,7 +4,7 @@ body {
 }
 
 /*--*/
-#cover-image {
+.cover-image {
     background-image: url("../../contents/cover_img.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -16,7 +16,7 @@ body {
     width: 100%;
 }
 
-#cover-text-container{
+.cover-text-container{
     background-color: #000000;
     filter: opacity(50%);
     box-sizing: border-box;
@@ -25,7 +25,7 @@ body {
     margin: auto;
 }
 
-#cover-text {
+.cover-text {
     text-align: center;
     margin: auto;
     font-family: theboldfont;
@@ -70,22 +70,43 @@ body {
 
 
 /*--*/
-.social-links {
+.social-links-container {
     text-align: center;
 }
 
-.fa-lg {
-    font-size: 24pt !important;
+.connect-with-us {
+    font-family: Bebas;
+    font-size: 16pt;
+    margin: auto;
+    padding: auto;
+}
+
+.social-link {
+    color: black;
+    font-size: 24pt;
+}
+.social-link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.social-link > .fab {
+    font-size: 20pt;
+}
+
+.social-link > span {
+    font-size: 0pt;
+    transition: font-size 0.5s;
 }
 
 
 /*screen*/
 @media only screen and (max-width: 800px) {
-    #cover-image {
+    .cover-image {
         height: 400px;
     }
 
-    #cover-text {
+    .cover-text {
         top: 0px;
         opacity: 0;
     }
@@ -103,4 +124,14 @@ body {
 @font-face {
     font-family: 'Bebas';
     src: url('fonts/Bebas-Regular.ttf');
+}
+
+/*keyframes*/
+@keyframes sl-show-onhover {
+    from {font-size: 0pt;}
+    to {font-size: 12pt;}
+}
+@keyframes sl-hide-onhover {
+    from {font-size: 12pt;}
+    to {font-size: 0pt;}
 }
