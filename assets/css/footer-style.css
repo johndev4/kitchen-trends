@@ -1,0 +1,22 @@
+.copyright {
+    background-color: cadetblue;
+}
+
+.p-copyright {
+
+}
+
+
+/*to-top*/
+.top-btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    filter: opacity(0.8);
+    display: none;
+}
+
+.fa-arrow-up {
+    font-size: 24pt;
+}

@@ -125,15 +125,6 @@ body {
 }
 
 
-/*footer*/
-.copyright {
-    background-color: cadetblue;
-}
-
-.p-copyright {
-
-}
-
 /*screen*/
 @media only screen and (max-width: 800px) {
     .cover-image {

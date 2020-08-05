@@ -20,4 +20,11 @@ $(document).ready(function () {
         $(this).find('.border-bottom-hr').css({ visibility: "hidden" });
     });
 
+    /*click event for products*/
+    $('#nav-products').click(function() {
+        $('html, body').animate({
+            scrollTop: $('#prod-cat-sec').position().top
+        }, "slow");
+    });
+
 });
