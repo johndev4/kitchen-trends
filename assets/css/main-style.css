@@ -70,35 +70,68 @@ body {
 
 
 /*--*/
-.social-links-container {
-    text-align: center;
+.social-links {
+    
 }
 
 .connect-with-us {
     font-family: Bebas;
-    font-size: 16pt;
-    margin: auto;
-    padding: auto;
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
 }
 
-.social-link {
-    color: black;
-    font-size: 24pt;
+.btn-floating {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+    color: #ffffff;
 }
-.social-link:hover {
-    color: #000000;
+.btn-floating:hover {
+    color: #ffffff;
     text-decoration: none;
 }
 
-.social-link > .fab {
-    font-size: 20pt;
+.btn-fb {
+    background-color: #3b5998;
+    padding: 10px 15px;
+}
+.btn-fb i {
+    position: relative;
+    left: 2px;
 }
 
-.social-link > span {
-    font-size: 0pt;
-    transition: font-size 0.5s;
+.btn-fbmes {
+    background-color: #0084ff;
+    padding: 10px 13px;
+}
+.btn-fbmes i {
+    position: relative;
+    left: 2px;
 }
 
+.btn-tw {
+    background-color: #0084b4;
+    padding: 10px 13px;
+}
+.btn-tw i {
+    position: relative;
+    left: 2px;
+}
+
+.btn-insta {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    padding: 10px 15px;
+}
+
+
+/*footer*/
+.copyright {
+    background-color: cadetblue;
+}
+
+.p-copyright {
+
+}
 
 /*screen*/
 @media only screen and (max-width: 800px) {
@@ -124,14 +157,4 @@ body {
 @font-face {
     font-family: 'Bebas';
     src: url('fonts/Bebas-Regular.ttf');
-}
-
-/*keyframes*/
-@keyframes sl-show-onhover {
-    from {font-size: 0pt;}
-    to {font-size: 12pt;}
-}
-@keyframes sl-hide-onhover {
-    from {font-size: 12pt;}
-    to {font-size: 0pt;}
 }

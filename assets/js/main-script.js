@@ -20,19 +20,4 @@ $(document).ready(function () {
         $(this).find('.border-bottom-hr').css({ visibility: "hidden" });
     });
 
-    /*hover event for social links*/
-    $('.social-link').hover(function () {
-        $(this).find('span').css({
-            "animation-name": "sl-show-onhover",
-            "animation-duration": "0.2s",
-            "animation-fill-mode": "forwards"
-        });
-    }, function () {
-        $(this).find('span').css({
-            "animation-name": "sl-hide-onhover",
-            "animation-duration": "0.1s",
-            "animation-fill-mode": "forwards"
-        });
-    })
-
 });
