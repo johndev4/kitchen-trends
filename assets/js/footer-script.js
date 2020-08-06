@@ -1,8 +1,8 @@
 window.onscroll = function () {
-    if (window.scrollY > 100) {
-        $('.top-btn').css('display', 'block');
+    if (window.scrollY > 90) {
+        $('.to-top.ovr-container').css('display', 'block');
     } else {
-        $('.top-btn').css('display', 'none');
+        $('.to-top.ovr-container').css('display', 'none');
     }
 }
 

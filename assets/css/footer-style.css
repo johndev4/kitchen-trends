@@ -1,3 +1,7 @@
+.footer-contents {
+    
+}
+
 .copyright {
     background-color: cadetblue;
 }
@@ -8,7 +12,7 @@
 
 
 /*to-top*/
-.top-btn {
+.to-top.ovr-container {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -17,6 +21,6 @@
     display: none;
 }
 
-.fa-arrow-up {
-    font-size: 24pt;
+.btn-dark > .fa-angle-up {
+    font-size: 18pt;
 }
