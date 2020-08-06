@@ -1,5 +1,5 @@
 .navbar.bg-color {
-    background-color: #000000 !important;
+    background-color: #010101 !important;
 }
 
 .brand-name {
@@ -31,23 +31,4 @@
     border: 0.5px solid #ffffff;
     width: 0px;
     visibility: hidden;
-}
-
-
-/*keyframes*/
-@keyframes rotate /*--for firefox--*/{
-    from{
-        transform:rotate(0deg);
-    }       
-    to{
-        transform:rotate(90deg);
-    }
-}
-@keyframes unrotate /*--for firefox--*/{
-    from{
-        transform:rotate(90deg);
-    }       
-    to{
-        transform:rotate(0deg);
-    }
 }

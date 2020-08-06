@@ -1,12 +1,7 @@
-window.onscroll = function () {
-    if (window.scrollY > 90) {
-        $('.to-top.ovr-container').css('display', 'block');
-    } else {
-        $('.to-top.ovr-container').css('display', 'none');
-    }
-}
-
 $(document).ready(function () {
+
+    $(window).on("scroll", showToTopBtn);
+    showToTopBtn();
 
     //Go to top script--
     $('#to-top').click(function () {
@@ -15,4 +10,13 @@ $(document).ready(function () {
         }, "slow");
     });
 
-})
+    function showToTopBtn() {
+        if ($(window).scrollTop() > 80) {
+            $('.to-top.ovr-container').fadeIn("slow", "linear");
+        } else {
+            $('.to-top.ovr-container').fadeOut("slow", "linear");
+        }
+        //$('#to-top').text($(window).scrollTop());
+    }
+
+});

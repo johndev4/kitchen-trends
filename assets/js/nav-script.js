@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('.navbar-toggler').first().click(function () {
         if ($(this).hasClass("collapsed")) {
             $('#rotate-box').css({
-                "animation-name": "rotate",
+                "animation-name": "rotateClockwise",
                 "animation-duration": "0.1s",
                 "animation-iteration-count": "1",
                 "animation-fill-mode": "forwards"
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
         } else {
             $('#rotate-box').css({
-                "animation-name": "unrotate",
+                "animation-name": "rotateCounterClockwise",
                 "animation-duration": "0.1s",
                 "animation-iteration-count": "1",
                 "animation-fill-mode": "forwards"

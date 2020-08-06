@@ -1,0 +1,36 @@
+/*rotate animation*/
+@keyframes rotateClockwise {
+    from {
+        transform:rotate(0deg);
+    }       
+    to{
+        transform:rotate(90deg);
+    }
+}
+@keyframes rotateCounterClockwise {
+    from {
+        transform:rotate(90deg);
+    }       
+    to{
+        transform:rotate(0deg);
+    }
+}
+
+
+/*opacity animation*/
+@keyframes opacityIncrement {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.35;
+    }
+}
+@keyframes opacityDecrement {
+    from {
+        opacity: 0.35;
+    }
+    to {
+        opacity: 0;
+    }
+}

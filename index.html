@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/navbar-style.css">
     <link rel="stylesheet" href="assets/css/main-style.css">
     <link rel="stylesheet" href="assets/css/footer-style.css">
+    <link rel="stylesheet" href="assets/css/animation-keyframes.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <!-- OwlCarousel2-2.3.4 Plugin -->
     <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.carousel.min.css">
@@ -29,6 +30,8 @@
 
 <body>
     <header>
+
+        <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-color shadow">
             <a class="navbar-brand" href="">
                 <img class="brand-name" src="assets/brand_name.png" alt="logo">
@@ -46,7 +49,7 @@
                             <hr class="border-bottom-hr n-link my-auto"></a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link" href="#products" id="nav-products">PRODUCTS
+                        <a class="nav-link" role="button" id="nav-products">PRODUCTS
                             <hr class="border-bottom-hr n-link my-auto"></a>
                     </li>
                     <li class="nav-item px-4">
@@ -60,71 +63,77 @@
                 </ul>
             </div>
         </nav>
+        <!-- Navigation Bar -->
+
     </header>
 
     <main>
+
+        <!-- Feature Section-->
         <section>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="cover-image">
-                        <div class="cover-text-container">
-                            <h1 class="cover-text">DELICIOUSLY HOMEMADE</h1>
+                    <div class="feature-image">
+                        <div class="feature-text-container">
+                            <h1 class="feature-text">DELICIOUSLY HOMEMADE</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Feature Section-->
 
-        <section class="py-4" id="prod-cat-sec" style="background-color: #DCD8D9;">
+        <!-- Products Categories Section-->
+        <section class="pt-1" id="prod-cat-sec" style="background-color: #DCD8D9;">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 col-md-4 my-3 product-categories">
+                    <div class="col-6 col-sm-4 col-md-2 py-3 product-categories">
                         <div class="products-category">
                             <img src="contents/products_categories/bakeware.png" class="products-category-img" alt="">
                             <div class="products-category-name-container my-3">
                                 <p class="products-category-name">BAKEWARE</p>
                             </div>
-                            <hr class="border-bottom-hr p-categ my-auto">
+                            <hr class="border-bottom-hr p-categ my-0">
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 my-3 product-categories">
+                    <div class="col-6 col-sm-4 col-md-2 py-3 product-categories">
                         <div class="products-category">
                             <img src="contents/products_categories/cookware.png" class="products-category-img" alt="">
                             <div class="products-category-name-container my-3">
                                 <p class="products-category-name">COOKWARE</p>
                             </div>
-                            <hr class="border-bottom-hr p-categ my-auto">
+                            <hr class="border-bottom-hr p-categ my-0">
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 my-3 product-categories">
+                    <div class="col-6 col-sm-4 col-md-2 py-3 product-categories">
                         <div class="products-category">
                             <img src="contents/products_categories/cutlery.png" class="products-category-img" alt="">
                             <div class="products-category-name-container my-3">
                                 <p class="products-category-name">CUTLERY</p>
                             </div>
-                            <hr class="border-bottom-hr p-categ my-auto">
+                            <hr class="border-bottom-hr p-categ my-0">
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 my-3 product-categories">
+                    <div class="col-6 col-sm-4 col-md-2 py-3 product-categories">
                         <div class="products-category">
                             <img src="contents/products_categories/cutting_board.png" class="products-category-img"
                                 alt="">
                             <div class="products-category-name-container my-3">
                                 <p class="products-category-name">CUTTING BOARDS</p>
                             </div>
-                            <hr class="border-bottom-hr p-categ my-auto ">
+                            <hr class="border-bottom-hr p-categ my-0 ">
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 my-3 product-categories">
+                    <div class="col-6 col-sm-4 col-md-2 py-3 product-categories">
                         <div class="products-category">
                             <img src="contents/products_categories/kettles.png" class="products-category-img" alt="">
                             <div class="products-category-name-container my-3">
                                 <p class="products-category-name">KETTLES</p>
                             </div>
-                            <hr class="border-bottom-hr p-categ my-auto">
+                            <hr class="border-bottom-hr p-categ my-0">
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 my-3 product-categories">
+                    <div class="col-6 col-sm-4 col-md-2 py-3 product-categories">
                         <div class="products-category">
                             <img src="contents/products_categories/roasters.png" class="products-category-img" alt="">
                             <div class="products-category-name-container my-3">
@@ -136,14 +145,15 @@
                 </div>
             </div>
         </section>
+        <!-- Products Categories Section-->
 
+        <!-- Social Links Section-->
         <section>
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-12 p-0">
-
                         <div class="social-links-container">
-                            <div class="container my-4">
+                            <div class="container my-3">
                                 <div class="row">
                                     <div class="col-md-6 my-2 my-md-1">
                                         <p class="connect-with-us text-center text-md-right">Get connected with us on
@@ -168,21 +178,83 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Social Links Section-->
+
     </main>
 
-    <footer>
-        <div class="footer-contents">
+    <footer class="page-footer m-auto">
 
+        <!-- Footer Links -->
+        <div class="container mx-0 mx-sm-5 mx-md-auto text-md-left p-4">
+            <div class="row">
+
+                <div class="col-12 col-md-3">
+                    <h6 class="text-uppercase font-weight-bold">Our Products</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto border-white" style="width: 60px;">
+                    <p>
+                        <a href="#Bakeware" class="footer-link"> Bakeware </a>
+                    </p>
+                    <p>
+                        <a href="#Cookware" class="footer-link"> Cookware </a>
+                    </p>
+                    <p>
+                        <a href="#Cutlery" class="footer-link">Cutlery</a>
+                    </p>
+                    <p>
+                        <a href="#Cutting Boards" class="footer-link"> Cutting Boards </a>
+                    </p>
+                    <p>
+                        <a href="#Kettles" class="footer-link"> Kettles </a>
+                    </p>
+                    <p>
+                        <a href="#Roasters" class="footer-link"> Roasters </a>
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h6 class="text-uppercase font-weight-bold">Navigation</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto border-white" style="width: 60px;">
+                    <p>
+                        <a href="#!" class="footer-link">Home</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="footer-link">Products</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="footer-link">Gallery</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="footer-link">About us</a>
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 px-auto px-md-5">
+                    <h6 class="text-uppercase font-weight-bold">Contact us</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-aut border-white" style="width: 60px;">
+                    <p>
+                        <a href="mailto:kitchentrends@gmail.com" class="footer-link">
+                            <i class="fas fa-envelope mr-3"></i> kitchentrends@gmail.com </a>
+                    </p>
+                    <p>
+                        <a href="tel:+639053672873" class="footer-link">
+                            <i class="fas fa-phone mr-3"></i> + 63 9053 672 873 </a>
+                </div>
+
+            </div>
         </div>
-        <div class="copyright d-flex justify-content-center">
-            <p class="p-copyright">&copy;2020 Kitchen Trends. All rights reserved.
-            </p>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="copyright text-center py-2">
+            <span style="color: #bbbbbb;">&copy; 2020:</span> Kitchen Trends
+            <img src="assets/brand_icon.png" alt="website_icon" width="18px">
         </div>
+        <!-- Copyright -->
+
     </footer>
 
     <!-- Start of Scroll-To-Top-Btn -->

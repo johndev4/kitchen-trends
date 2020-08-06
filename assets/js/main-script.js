@@ -1,11 +1,11 @@
-window.onload = function () {
-    $('.cover-text').animate({
-        opacity: "1.0",
-        top: "20%"
-    }, 1500);
-}
-
 $(document).ready(function () {
+
+    $(window).on("load", function() {
+        $('.feature-text').animate({
+            opacity: "1.0",
+            top: "20%"
+        }, 1500);
+    });
 
     /*hover event for products category*/
     $('.products-category').hover(function () {
