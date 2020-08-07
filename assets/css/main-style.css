@@ -71,10 +71,6 @@ body {
 
 
 /*--*/
-.social-links {
-    
-}
-
 .connect-with-us {
     font-family: Bebas;
     font-size: 15pt;
@@ -83,7 +79,7 @@ body {
 }
 
 .btn-floating {
-    
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     border-radius: 100%;
     color: #ffffff;
 }
