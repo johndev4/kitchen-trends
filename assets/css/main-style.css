@@ -33,7 +33,7 @@ body {
     font-size:36pt;
     color: #ffffff;
     position: relative;
-    top: -30px;
+    top: -10px;
     opacity: 0;
 }
 
@@ -129,9 +129,8 @@ body {
     }
 
     .feature-text {
-        top: 0px;
         opacity: 0;
-        font-size:32pt;
+        font-size:30pt;
     }
 
     .products-category {

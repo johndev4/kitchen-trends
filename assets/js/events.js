@@ -2,10 +2,10 @@ $(document).ready(function () {
 
     $(window).on("load", function() {
         $('.feature-text').animate({
-            opacity: "1.0",
-            top: "20%"
+            top: "20",
+            opacity: "1.0"
         }, 1500);
-
+        
         showToTopBtn();
     });
 
