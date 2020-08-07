@@ -83,7 +83,7 @@ body {
 }
 
 .btn-floating {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    
     border-radius: 100%;
     color: #ffffff;
 }
@@ -95,7 +95,7 @@ body {
 
 .btn-fb {
     background-color: #3b5998;
-    padding: 10px 15px;
+    padding: 12px 15px;
 }
 .btn-fb i {
     position: relative;
@@ -104,7 +104,7 @@ body {
 
 .btn-fbmes {
     background-color: #0084ff;
-    padding: 10px 13px;
+    padding: 12px;
 }
 .btn-fbmes i {
     position: relative;
@@ -113,7 +113,7 @@ body {
 
 .btn-tw {
     background-color: #0084b4;
-    padding: 10px 13px;
+    padding: 12px;
 }
 .btn-tw i {
     position: relative;
@@ -122,7 +122,7 @@ body {
 
 .btn-insta {
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-    padding: 10px 15px;
+    padding: 12px 15px;
 }
 
 
