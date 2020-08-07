@@ -1,10 +1,11 @@
 $(document).ready(function () {
 
     $(window).on("load", function() {
+        var ftBottom = parseInt($('.feature-text').css("bottom")) + 30;
         $('.feature-text').animate({
-            top: "20",
+            bottom: ftBottom,
             opacity: "1.0"
-        }, 1500);
+        }, 1000);
         
         showToTopBtn();
     });
